@@ -254,7 +254,7 @@ def __injectAndExecute( remoteProcess, dllName, LoadLibraryA_address=-1, creatio
         LoadLibraryA_address = \
             GetProcAddress( kernel32lib,
                             "LoadLibraryA" )
-        printIfVerbos("LoadLibraryA found in 0x%x" % LoadLibraryA_address, isVerbos)
+        printIfVerbos("LoadLibraryA found at 0x%x" % LoadLibraryA_address, isVerbos)
         # We can assume that kernel32 is loaded in the same place in every process
         # because it's the first dll to be loaded in every process
 
