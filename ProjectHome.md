@@ -1,0 +1,1 @@
+Small Python module to inject DLLs into other processes using CreateRemoteThread.
